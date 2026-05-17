@@ -85,7 +85,7 @@ CERTIFICATIONS:
 - Apache Airflow 3
 
 RESUME:
-https://somesh1312.github.io/somesh.github.io/docs/Somesh-Cloud.pdf
+https://somesh1312.github.io/somesh.github.io/docs/Someshkumar-DA.pdf
 `;
 
 export default async function handler(req, res) {
