@@ -89,7 +89,7 @@ https://somesh1312.github.io/somesh.github.io/docs/Somesh-Cloud.pdf
 `;
 
 export default async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', 'https://somesh1312.github.io');
+  res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
