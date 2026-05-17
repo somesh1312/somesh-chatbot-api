@@ -1,15 +1,12 @@
 {
   "name": "somesh-chatbot-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev",
+    "start": "vercel dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "openai": "^6.38.0"
+    "openai": "^4.0.0"
   }
 }
